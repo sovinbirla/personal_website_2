@@ -245,7 +245,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Coming Soon...
+                                        TBD...
                                     </span>
                                 </div>
                             </NavLink>

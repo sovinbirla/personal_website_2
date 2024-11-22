@@ -14,9 +14,9 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
 
     const useStyles = makeStyles((t) => ({
         educationCard : {
-            backgroundColor:theme.primary30,
+            backgroundColor:theme.secondary,
             "&:hover": {
-                backgroundColor:theme.primary50,
+                backgroundColor:theme.secondary,
             },
         },
     }));

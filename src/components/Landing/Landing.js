@@ -8,7 +8,7 @@ import { ThemeContext } from '../../contexts/ThemeContext'
 import { headerData } from '../../data/headerData'
 import { socialsData } from '../../data/socialsData'
 
-import { FaTwitter, FaLinkedin, FaGithub, FaYoutube, FaBlogger } from "react-icons/fa";
+import { FaInstagram ,FaSpotify, FaTwitter, FaLinkedin, FaGithub, FaFacebook,  } from "react-icons/fa";
 
 
 function Landing() {
@@ -82,14 +82,19 @@ function Landing() {
                                 <FaTwitter className="landing--social" style={{color: theme.secondary}}/>
                             </a>
                         )}
-                        {socialsData.youtube && (
-                            <a href={socialsData.youtube} target="_blank" rel="noreferrer">
-                                <FaYoutube className="landing--social" style={{color: theme.secondary}}/>
+                        {socialsData.spotify && (
+                            <a href={socialsData.spotify} target="_blank" rel="noreferrer">
+                                <FaSpotify className="landing--social" style={{color: theme.secondary}}/>
                             </a>
                         )}
-                        {socialsData.blogger && (
-                            <a href={socialsData.blogger} target="_blank" rel="noreferrer">
-                                <FaBlogger className="landing--social" style={{color: theme.secondary}}/>
+                        {socialsData.instagram && (
+                            <a href={socialsData.instagram} target="_blank" rel="noreferrer">
+                                <FaInstagram className="landing--social" style={{color: theme.secondary}}/>
+                            </a>
+                        )}
+                        {socialsData.facebook && (
+                            <a href={socialsData.facebook} target="_blank" rel="noreferrer">
+                                <FaFacebook className="landing--social" style={{color: theme.secondary}}/>
                             </a>
                         )}
                     </div>

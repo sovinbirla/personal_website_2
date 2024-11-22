@@ -16,12 +16,12 @@ function Main() {
             <About />
             <Skills />
             <Education />          
-            {/* <Testimonials />
+            <Testimonials />
             <Experience />
             <Services />  
             <Projects />
             <Achievement />
-            <Blog /> */}
+            <Blog />
             <Contacts />
             <Footer />
         </div>

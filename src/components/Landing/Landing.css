@@ -64,6 +64,7 @@
 .lcr--content {
   width: 45%;
   margin-right: 7rem;
+  margin-inline-start: auto;
   font-family: var(--primaryFont);
   font-style: normal;
 }

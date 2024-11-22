@@ -7,16 +7,17 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 
+import latest_track from '../assets/png/latest_track.png'
+
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'History Through Movies',
+        projectName: 'Simple Shots',
         projectDesc: 'This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.',
-        tags: ['Django', 'HTML' ,'CSS', 'Javascript'],
-        code: 'https://github.com/sreerag-rajan/historythroughmovies',
-        demo: 'https://historythroughmovies.pythonanywhere.com/',
-        image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
+        tags: ['PyTorch', 'YOLO' ,'Computer Vision', 'OpenCV'],
+        code: 'https://github.com/sovinbirla/Simple-Shots',
+        image: latest_track
     },
     {
         id: 2,

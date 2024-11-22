@@ -20,8 +20,8 @@ function Main() {
             <Experience />
             {/* <Services />   */}
             <Projects />
-            <Achievement />
-            <Blog />
+            {/* <Achievement /> */}
+            {/* <Blog /> */}
             <Contacts />
             <Footer />
         </div>

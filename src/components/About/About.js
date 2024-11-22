@@ -19,7 +19,18 @@ function About() {
             <div className="about-body">
                 <div className="about-description">
                     <h2 style={{color: theme.secondary}}>{aboutData.title}</h2>
-                    <p style={{color:theme.secondary}}>{aboutData.description1}<br/><br/>{aboutData.description2}</p>
+                    <p style={{color:theme.secondary}}>
+                        {aboutData.description1}
+                        <br/>
+                        <br/>
+                        {aboutData.description2}
+                        <br/>
+                        <br/>
+                        {aboutData.description3}
+                        <br/>
+                        <br/>
+                        {aboutData.description4}
+                    </p>
                 </div>
                 <div className="about-img">
                     <img 

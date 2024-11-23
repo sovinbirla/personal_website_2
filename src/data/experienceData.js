@@ -1,7 +1,7 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Maven Wave Partners, an Eviden Company',
+        company: 'Maven Wave Partners',
         jobtitle: 'Software Engineering Consultant',
         startYear: '2021',
         endYear: '2023'

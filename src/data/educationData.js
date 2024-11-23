@@ -16,7 +16,7 @@ export const educationData = [
     {
         id: 3,
         institution: 'University of Illinios Urbana-Champaign',
-        course: 'BS Statistics and Computer Science',
+        course: 'BS Statistics & Computer Science',
         startYear: '2017',
         endYear: '2021'
     },

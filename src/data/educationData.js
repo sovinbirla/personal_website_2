@@ -1,9 +1,9 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Georgia Institute of Technology',
-        course: 'MS Quantitative and Computational Finance',
-        startYear: '2023',
+        institution: 'University of Chicago',
+        course: 'MS in Applied Data Science',
+        startYear: '2025',
         endYear: '2026'
     },
     {

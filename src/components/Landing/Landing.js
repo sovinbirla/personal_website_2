@@ -9,7 +9,7 @@ import { headerData } from '../../data/headerData'
 import { socialsData } from '../../data/socialsData'
 
 import { FaInstagram ,FaSpotify, FaTwitter, FaLinkedin, FaGithub, FaFacebook,  } from "react-icons/fa";
-import landingImage from '../../assets/png/profile2.png'
+import landingImage from '../../assets/png/profile2f.png'
 
 
 function Landing() {
